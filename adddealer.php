@@ -1,0 +1,93 @@
+<?php
+include'header.php';
+?>
+
+<div class='container mr-5 mt-5 bg-white text-dark'>
+<form method="post" action="login.php">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      
+      <input type="text" class="form-control mt-2"  placeholder="First Name">
+    </div>
+    <div class="form-group col-md-6">
+     
+      <input type="text" class="form-control mt-2"  placeholder="Last Name">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      
+      <input type="text" class="form-control"  placeholder="VAT">
+    </div>
+    <div class="form-group col-md-6">
+     
+      <input type="text" class="form-control"  placeholder="KRA Pin">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      
+      <input type="text" class="form-control"  placeholder="Business Registration No">
+    </div>
+    <div class="form-group col-md-6">
+     
+      <input type="text" class="form-control" placeholder="Company Address">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      
+      <input type="text" class="form-control"  placeholder="Company Name">
+    </div>
+    <div class="form-group col-md-6">
+     
+      <input type="email" class="form-control"  placeholder="Email">
+    </div>
+  </div>
+ 
+  <div class="form-row">
+    <div class="form-group col-md-4">
+     
+      <input type="text" class="form-control " placeholder="Phone">
+    
+    </div>
+    <div class="form-group col-md-4">
+     
+      <select id="inputState" class="form-control ">
+      <option selected>Location</option>
+  <option value = "ELDORET" style=";width: 150px;">ELDORET</option>
+  <option value = "BUNGOMA" style=";width: 150px;">BUNGOMA</option>
+                              <option value = "EMALI" style=";width: 150px;">EMALI</option>
+                              <option value = "EMBU" style=";width: 150px;">EMBU</option>
+                              <option value = "EMBU AND MERU" style=";width: 150px;">EMBU AND MERU</option>
+                              <option value = "GARISSA" style=";width: 150px;">GARISSA</option>
+                              <option value = "KAKAMEGA" style=";width: 150px;">KAKAMEGA</option>
+                              <option value = "KERICHO" style=";width: 150px;">KERICHO</option>
+                              <option value = "KIKUYU" style=";width: 150px;">KIKUYU</option>
+                              <option value = "KIMILILI" style=";width: 150px;">KIMILILI</option>
+                              <option value = "KISII" style=";width: 150px;">KISII</option>
+                              <option value = "KISUMU" style=";width: 150px;">KISUMU</option>
+                              <option value = "KITALE" style=";width: 150px;">KITALE</option>
+                              <option value = "KITENGELA" style=";width: 150px;">KITENGELA</option>
+                              <option value = "MACHAKOS" style=";width: 150px;">MACHAKOS</option>
+                              <option value = "MALINDI" style=";width: 150px;">MALINDI</option>
+                              <option value = "MERU" style=";width: 150px;">MERU</option>
+                              <option value = "MOMBASA" style=";width: 150px;">MOMBASA</option>
+                              <option value = "Nairobi" style=";width: 150px;">Nairobi</option>
+                              <option value = "NAKURU" style=";width: 150px;">NAKURU</option>
+                              <option value = "NANYUKI" style=";width: 150px;">NANYUKI</option>
+                              <option value = "NYAHURURU" style=";width: 150px;">NYAHURURU</option>
+                              <option value = "NYERI" style=";width: 150px;">NYERI</option>
+                              <option value = "THIKA" style=";width: 150px;">THIKA</option>
+        </select>
+                         
+    </div>
+    <div class="form-group col-md-4">
+      
+    <input type="password" class="form-control  "  placeholder="Password">
+   
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Add</button>
+</form>
+
+</div>

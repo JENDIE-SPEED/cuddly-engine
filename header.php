@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Jendie</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+
+ <!-- Font Awesome JS -->
+ <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+ <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+
+    <style>
+      body{
+        background-image: linear-gradient(to right, rgba(237, 193, 118), rgba(195, 161, 151));
+        
+    max-width: 100%;
+    overflow-x: hidden;
+
+    }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="dashboard.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">User name</a>
+  
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-home-tab" href="index.php"  >Home</a>
+    <div class="dropdown show">
+    <a class="nav-item nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"  href="#nav-profile" >Switch </a>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="accounts.php">Accounts</a>
+    <a class="dropdown-item" href="#">Cancel</a>
+
+   
+  </div>
+  </div>
+
+    <a class="nav-item nav-link" id="nav-contact-tab" href="logout.php" >Logout</a>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu"class="col-md-3 col-lg-2 d-md-block navbar-light sidebar collapse" style="background-color:rgb(41, 37, 36);opacity:0.8;">
+      <div class="sidebar-sticky pt-3">
+        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index.php"> <img src="assets/img/JEND.png"></a>
+        <ul class="nav flex-column">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" ><i class="fas fa-home " aria-hidden="true"></i><span class="ml-1"></span>Main</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="newistallation.php">New Installation</a>
+              <a class="dropdown-item" href="history.php">History</a>
+              <a class="dropdown-item" href="renewed.php">Renewed</a>
+              <a class="dropdown-item" href="upcoming.php">Upcoming Renewals</a>
+              <a class="dropdown-item" href="technicianz.php">Technician</a>
+              <a class="dropdown-item" href="exportdate.php">Export Date</a>
+              <a class="dropdown-item" href="exportcustomer.php">Export Customer</a>
+             
+              <a class="dropdown-item" href="dealer.php">Dealer</a>
+              <a class="dropdown-item" href="addstock.php">Add Stock</a>
+              <a class="dropdown-item" href="allocatestock.php">Allocate Stock</a>
+              <a class="dropdown-item" href="dealerstock.php">Dealer Stock</a>
+              <a class="dropdown-item" href="pendingstock.php">Pending Stock</a>
+            
+              <a class="dropdown-item" href="reversestock.php">Reverse Stock</a>
+              <a class="dropdown-item" href="#">Sales summary</a>
+              <a class="dropdown-item" href="analytics.php">Sales Analytics</a>
+            
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-fw" aria-hidden="true"></i><span class="ml-1"></span>Account</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="createaccount.php">Create Account</a>
+              <a class="dropdown-item" href="addvehicle.php">Add vehicle</a>
+              <a class="dropdown-item" href="viewvehicle.php">View Vehicle</a>
+             
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-plus" aria-hidden="true"></i><span class="ml-1"></span>Add Users</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="addtech.php">Technician</a>
+              <a class="dropdown-item" href="companyuser.php">Company Users</a>
+              <a class="dropdown-item" href="adddealer.php">Dealers</a>
+          
+              <a class="dropdown-item" href="addlocation.php">Add Location</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-reply-all" aria-hidden="true"></i><span class="ml-1"></span>Renewal</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="renewal.php">Renewal</a>
+              <a class="dropdown-item" href="pending.php">Pending</a>
+              <a class="dropdown-item" href="approve.php">Approve</a>
+              
+              <a class="dropdown-item" href="transactions.php">Transactions</a>
+              <a class="dropdown-item" href="lpo.php">LPOs & Cheques</a>
+            </div>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-compress" aria-hidden="true"></i><span class="ml-1"></span>Occurence</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="newincident.php">New Incidents</a>
+              <a class="dropdown-item" href="viewincidents.php">View Incidents</a>
+              
+            <li class="nav-item ">
+              <a class="nav-link text-light bg-dark " href="replace.php" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i><span class="ml-1"></span>Replace</a>
+             
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-light bg-dark"  href="dealerlist.php" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list-alt" aria-hidden="true"></i><span class="ml-1"></span>Dealer List</a>
+             
+            </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i><span class="ml-1"></span>Pulse Settings</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="pulselist.php">Pulses</a>
+                  
+                  <div class="dropdown-divider"></div>
+                  <?php 
+                  $directory="../panel/ledgerlist.php"
+                  ?>
+                  <a class="dropdown-item" href="addpulse.php"> Add Pulses</a>
+                 
+                </div>
+              </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-ban" aria-hidden="true"></i><span class="ml-1"></span>Suspended</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="suspendedtech.php">Suspended Technician</a>
+                  
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="suspendeddealer.php">Suspended Dealers</a>
+                  </div>
+                </li> 
+               
+        </ul>
+
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+      
+    </main>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src=jquery.slim.min.js"><\/script>')</script><script src="bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+        <script src="dashboard.js"></script></body>
+</html>
