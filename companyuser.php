@@ -2,23 +2,24 @@
 include'header.php';
 ?>
 
+<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
 <div class='container mr-5 mt-5 bg-white text-dark'>
 <form action="signup.php" method="post">
   <div class="form-row">
     <div class="col-5 mt-1 ">
-      <input type="text" class="form-control" placeholder="First name">
+      <input type="text" class="form-control" name="firstname" placeholder="First name">
     </div>
     <div class="col mt-1" >
-      <input type="text" class="form-control" placeholder="Last name">
+      <input type="text" class="form-control" name="lastname" placeholder="Last name">
     </div>
     <div class="col mt-1">
-      <input type="text" class="form-control" placeholder="ID">
+      <input type="email" name="email" class="form-control" placeholder="Email">
     </div>
     <div class="col mt-1">
-      <input type="text" class="form-control" placeholder="Phone">
+      <input type="text" class="form-control" name="number" placeholder="Phone">
     </div>
   </div>
-  <select class="custom-select mt-1 mb-1">
+  <select class="custom-select mt-1 mb-1" name="branch">
   <option selected>Location</option>
   <option value = "ELDORET" style=";width: 150px;">ELDORET</option>
   <option value = "BUNGOMA" style=";width: 150px;">BUNGOMA</option>
@@ -47,7 +48,7 @@ include'header.php';
                               <option value = "THIKA/MANDERA/GARISSA" style=";width: 150px;">THIKA/MANDERA/GARISSA</option>
                               <option value = "VOI" style=";width: 150px;">VOI</option>
 </select>
-<select class="custom-select mt-1 mb-1">
+<select class="custom-select mt-1 mb-1" name="role">
   <option selected>Role</option>
   
                               <option value = "ADMIN" style=";width: 150px;">ADMIN</option>
@@ -56,10 +57,34 @@ include'header.php';
                               
 </select>
 <div class="col mt-1">
-      <input type="Password" class="form-control col-5" placeholder="Password">
+      <input type="Password" name="password"class="form-control col-5" placeholder="Password">
     </div>
-  <button type="submit" class="btn btn-primary mb-2 mt-1">Sign-up</button>
+  <button type="submit" name="submit" class="btn btn-primary mb-2 mt-1">Sign-up</button>
 </form>
 
 
+<script>
+    var ajax = new XMLHttpRequest();
+    ajax.open("GET", "fetch_location.php", true);
+    ajax.send();
+ 
+    ajax.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var data = JSON.parse(this.responseText);
+            console.log(data);
+ 
+            var html = "";
+            for(var a = 0; a < data.length; a++) {
+                var location = data[a].location;
+                
+ 
+                
+                    html += "<option value="+ location +">" + location + "</option>";
+                    
+                
+            }
+            document.getElementById("myList").innerHTML += html;
+        }
+    };
+</script>
 </div>

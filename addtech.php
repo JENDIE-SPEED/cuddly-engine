@@ -6,19 +6,19 @@ include'header.php';
 <form action="technician.php" method="post">
   <div class="form-row">
     <div class="col-5 mt-1 ">
-      <input type="text" class="form-control" placeholder="First name">
+      <input type="text" class="form-control" name="firstname" placeholder="First name">
     </div>
     <div class="col mt-1" >
-      <input type="text" class="form-control" placeholder="Last name">
+      <input type="text" class="form-control" name="lastname" placeholder="Last name">
     </div>
     <div class="col mt-1">
-      <input type="text" class="form-control" placeholder="ID">
+      <input type="text" class="form-control"  name="idno" placeholder="ID">
     </div>
     <div class="col mt-1">
-      <input type="text" class="form-control" placeholder="Phone">
+      <input type="text" class="form-control" name="phone" placeholder="Phone">
     </div>
   </div>
-  <select class="custom-select mt-1 mb-1">
+  <select class="custom-select mt-1 mb-1" name="branch">
   <option selected>Location</option>
   <option value = "ELDORET" style=";width: 150px;">ELDORET</option>
   <option value = "BUNGOMA" style=";width: 150px;">BUNGOMA</option>
@@ -47,7 +47,7 @@ include'header.php';
                               <option value = "THIKA/MANDERA/GARISSA" style=";width: 150px;">THIKA/MANDERA/GARISSA</option>
                               <option value = "VOI" style=";width: 150px;">VOI</option>
 </select>
-  <button type="submit" class="btn btn-primary mb-2 mt-1">Add</button>
+  <button type="submit" name="submit" class="btn btn-primary mb-2 mt-1">Add</button>
 </form>
 
 

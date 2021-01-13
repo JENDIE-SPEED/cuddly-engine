@@ -49,11 +49,11 @@
   <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">User name</a>
   
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <a class="nav-item nav-link active" id="nav-home-tab" href="index.php"  >Home</a>
+    <a class="nav-item nav-link active" id="nav-home-tab" href="index01.php"  >Home</a>
     <div class="dropdown show">
     <a class="nav-item nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"  href="#nav-profile" >Switch </a>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="accounts.php">Accounts</a>
+    <a class="dropdown-item" href="accountnew.php">Accounts</a>
     <a class="dropdown-item" href="#">Cancel</a>
 
    
@@ -68,7 +68,7 @@
   <div class="row">
     <nav id="sidebarMenu"class="col-md-3 col-lg-2 d-md-block navbar-light sidebar collapse" style="background-color:rgb(41, 37, 36);opacity:0.8;">
       <div class="sidebar-sticky pt-3">
-        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index.php"> <img src="assets/img/JEND.png"></a>
+        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index01.php"> <img src="assets/img/JEND.png"></a>
         <ul class="nav flex-column">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" ><i class="fas fa-home " aria-hidden="true"></i><span class="ml-1"></span>Main</a>
@@ -82,6 +82,7 @@
               <a class="dropdown-item" href="exportcustomer.php">Export Customer</a>
              
               <a class="dropdown-item" href="dealer.php">Dealer</a>
+             
               <a class="dropdown-item" href="addstock.php">Add Stock</a>
               <a class="dropdown-item" href="allocatestock.php">Allocate Stock</a>
               <a class="dropdown-item" href="dealerstock.php">Dealer Stock</a>

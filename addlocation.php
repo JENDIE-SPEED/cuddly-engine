@@ -6,10 +6,10 @@ include'header.php';
 <form form action="insert_location.php" method="post">
   <div class="form-group mt-1">
    
-    <input type="email" class="form-control" placeholder="Enter Location">
+    <input type="email" class="form-control" name="location" placeholder="Enter Location">
     
   </div>
   
-  <button type="submit" class="btn btn-primary mb-2">Add</button>
+  <button type="submit" name="submit" class="btn btn-primary mb-2">Add</button>
 </form>
 </div>
