@@ -379,7 +379,7 @@ include'header.php';
                                      <td>LUWANZA ENTERPRISES</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=46"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=46"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -390,7 +390,7 @@ include'header.php';
                                      <td>BIRDS EYE AUTO TRACK LIMITED</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=47"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=47"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -401,7 +401,7 @@ include'header.php';
                                      <td>NORTH RIFT AUTO DIESEL</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=48"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=48"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -412,7 +412,7 @@ include'header.php';
                                      <td>TETMA AUTO ELECTRICALS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=49"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=49"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -423,7 +423,7 @@ include'header.php';
                                      <td>TOMTECH AUTOCARE</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=51"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=51"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -434,7 +434,7 @@ include'header.php';
                                      <td>TIFFANYS AGENCIES</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=52"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=52"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -445,7 +445,7 @@ include'header.php';
                                      <td>RAGE DISEL ALD ELECT SUPPLIES</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=53"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=53"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -456,7 +456,7 @@ include'header.php';
                                      <td>MT. KENYA SPEED GOVERNOR CENTRE</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=54"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=54"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -467,7 +467,7 @@ include'header.php';
                                      <td>KIBE MOTORS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=55"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=55"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -478,7 +478,7 @@ include'header.php';
                                      <td>BONIFACE&QUEENS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=56"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=56"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -489,7 +489,7 @@ include'header.php';
                                      <td>TRACKONIX LTD</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=57"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=57"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -500,7 +500,7 @@ include'header.php';
                                      <td>JENDIE</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=61"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=61"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -511,7 +511,7 @@ include'header.php';
                                      <td>JENDIE LIMURU</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=62"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=62"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -522,7 +522,7 @@ include'header.php';
                                      <td>JOSICA AUTOSPARES</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=63"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=63"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -533,7 +533,7 @@ include'header.php';
                                      <td>AFRIVISTA VENTURES LTS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=64"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=64"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -544,7 +544,7 @@ include'header.php';
                                      <td>FIATMART</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=65"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=65"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -555,7 +555,7 @@ include'header.php';
                                      <td>SIMBA COLT MOTORS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=66"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=66"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -566,7 +566,7 @@ include'header.php';
                                      <td>BUJULTD</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=67"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=67"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -577,7 +577,7 @@ include'header.php';
                                      <td>HENJIK</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=73"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=73"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -588,7 +588,7 @@ include'header.php';
                                      <td>KHANTRACK</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=74"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=74"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -599,7 +599,7 @@ include'header.php';
                                      <td>spyproventures</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=75"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=75"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -610,7 +610,7 @@ include'header.php';
                                      <td>VANSEN TECH LTD</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=76"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=76"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -621,7 +621,7 @@ include'header.php';
                                      <td>STANTECH CENTER</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=77"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=77"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -632,7 +632,7 @@ include'header.php';
                                      <td>SUBARU INDUSTRY</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=78"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=78"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -643,7 +643,7 @@ include'header.php';
                                      <td>SHIV DIESEL SERVICE</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=79"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=79"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -654,7 +654,7 @@ include'header.php';
                                      <td>ENGINE ROOM TECH LTD</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=80"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=80"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -665,7 +665,7 @@ include'header.php';
                                      <td>DIGITAL TELEMATICS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=81"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=81"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -676,7 +676,7 @@ include'header.php';
                                      <td>NAMSAMS ENTERPRISES</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=82"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=82"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -687,7 +687,7 @@ include'header.php';
                                      <td>BENKO</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=83"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=83"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -698,7 +698,7 @@ include'header.php';
                                      <td>SPITFIRE MOTORS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=84"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=84"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -709,7 +709,7 @@ include'header.php';
                                      <td>TRANSPORT AND LIFTING SERVICES LTD</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=85"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=85"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -720,7 +720,7 @@ include'header.php';
                                      <td>RITZ CAR TRACK</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=93"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=93"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -731,7 +731,7 @@ include'header.php';
                                      <td>GAS KINGS KENYA</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=98"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=98"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -742,7 +742,7 @@ include'header.php';
                                      <td>SUNSCAPE  AUTO LTD</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=99"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=99"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -753,7 +753,7 @@ include'header.php';
                                      <td>IMMANET SOLUTION LTD</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=100"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=100"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -764,7 +764,7 @@ include'header.php';
                                      <td>NEBSAM DIGITAL SOLUTIONS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=101"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=101"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -775,7 +775,7 @@ include'header.php';
                                      <td>NEBSAM DIGITAL SOLUTIONS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=103"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=103"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -786,7 +786,7 @@ include'header.php';
                                      <td>BATESI </td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=104"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=104"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -797,7 +797,7 @@ include'header.php';
                                      <td>JENDIE GARISSA</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=105"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=105"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -808,7 +808,7 @@ include'header.php';
                                      <td>PTRICK OKWARO</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=106"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=106"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -819,7 +819,7 @@ include'header.php';
                                      <td>NAKURU VALLEY</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=107"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=107"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -830,7 +830,7 @@ include'header.php';
                                      <td>BESTRICH TECHNOLOGY</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=108"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=108"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -841,7 +841,7 @@ include'header.php';
                                      <td>TEKNOSAV</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=109"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=109"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -852,7 +852,7 @@ include'header.php';
                                      <td>CLEOKIM LTD</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=110"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=110"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -863,7 +863,7 @@ include'header.php';
                                      <td>JERIMAX AUTOWORKS NAKURU</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=118"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=118"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -874,7 +874,7 @@ include'header.php';
                                      <td>ELISAMWA ENTERPRISE </td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=119"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=119"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -885,7 +885,7 @@ include'header.php';
                                      <td>NDARARUA</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=120"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=120"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -896,7 +896,7 @@ include'header.php';
                                      <td>IZIT AUTO SERVICES</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=122"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=122"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -907,7 +907,7 @@ include'header.php';
                                      <td>PEEJAY & SONS CO LTD</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=124"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=124"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -918,7 +918,7 @@ include'header.php';
                                      <td>EXTRATECH AUTOMOTIVE SOLUTIONS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=126"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=126"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -929,7 +929,7 @@ include'header.php';
                                      <td>KABRAS SUGAR</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=137"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=137"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -940,7 +940,7 @@ include'header.php';
                                      <td>JOSHPETER</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=138"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=138"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -951,7 +951,7 @@ include'header.php';
                                      <td>NGARA AUTO</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=139"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=139"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -962,7 +962,7 @@ include'header.php';
                                      <td>JENDIE UTAWALA</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=140"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=140"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -973,7 +973,7 @@ include'header.php';
                                      <td>LELEI</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=142"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=142"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -984,7 +984,7 @@ include'header.php';
                                      <td>picad</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=143"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=143"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -995,7 +995,7 @@ include'header.php';
                                      <td>BEGAMU SUPPLIERS GENERAL</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=144"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=144"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1006,7 +1006,7 @@ include'header.php';
                                      <td>SHAWN AUTOMOBILE</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=145"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=145"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1017,7 +1017,7 @@ include'header.php';
                                      <td>JENDIE SULTAN</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=147"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=147"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1028,7 +1028,7 @@ include'header.php';
                                      <td>TRESMAYN INVESTMENTS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=148"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=148"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1039,7 +1039,7 @@ include'header.php';
                                      <td>LEST COMM</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=149"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=149"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1050,7 +1050,7 @@ include'header.php';
                                      <td>PREVATECH</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=150"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=150"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1061,7 +1061,7 @@ include'header.php';
                                      <td>SIMBA COLT MOTORS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=151"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=151"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1072,7 +1072,7 @@ include'header.php';
                                      <td>SIMBA COLT MOTORS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=152"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=152"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1083,7 +1083,7 @@ include'header.php';
                                      <td>SIMBA COLT MOTORS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=153"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=153"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1094,7 +1094,7 @@ include'header.php';
                                      <td>SIMBA COLT MOTORS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=154"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=154"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1105,7 +1105,7 @@ include'header.php';
                                      <td>SIMBA COLT MOTORS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=155"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=155"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1116,7 +1116,7 @@ include'header.php';
                                      <td>AUTOMOBILE SPEEDTRACK</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=156"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=156"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1127,7 +1127,7 @@ include'header.php';
                                      <td>SIMBA COLT MOTORS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=158"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=158"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1138,7 +1138,7 @@ include'header.php';
                                      <td>BUNGOMALINE SACCO</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=160"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=160"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1149,7 +1149,7 @@ include'header.php';
                                      <td>JAMESNYOKABI</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=161"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=161"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1160,7 +1160,7 @@ include'header.php';
                                      <td>TECH PRINTS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=162"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=162"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1171,7 +1171,7 @@ include'header.php';
                                      <td>WANJERU</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=169"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=169"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1182,7 +1182,7 @@ include'header.php';
                                      <td>TAMAN</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=170"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=170"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1193,7 +1193,7 @@ include'header.php';
                                      <td>WAGUCHU</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=175"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=175"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1204,7 +1204,7 @@ include'header.php';
                                      <td>SUZWIN</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=179"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=179"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1215,7 +1215,7 @@ include'header.php';
                                      <td>ROMWA AUTO DIESEL</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=183"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=183"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1226,7 +1226,7 @@ include'header.php';
                                      <td>SALS DELUXE</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=186"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=186"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1237,7 +1237,7 @@ include'header.php';
                                      <td>ANGELMATIC</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=194"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=194"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1248,7 +1248,7 @@ include'header.php';
                                      <td>KRAZY FOR CARS LTD</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=195"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=195"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1259,7 +1259,7 @@ include'header.php';
                                      <td>SIMBA COLT MOTORS</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=197"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=197"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1270,7 +1270,7 @@ include'header.php';
                                      <td>WARIA AUTO</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=214"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=214"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1281,7 +1281,7 @@ include'header.php';
                                      <td>PLO</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=215"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=215"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                     <tr>
@@ -1292,7 +1292,7 @@ include'header.php';
                                      <td>ELIGIBLE</td>
                                     <td>
                                         
-                                        <a href="sus_dealer.php?id=218"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash-o" aria-hidden="true"></i></button></a>
+                                        <a href="sus_dealer.php?id=218"><button data-toggle="tooltip" title="Trash" class="pd-setting-ed"><i class="fa fa-trash" aria-hidden="true"></i></button></a>
                                     </td>
                                 </tr>
                                                                 

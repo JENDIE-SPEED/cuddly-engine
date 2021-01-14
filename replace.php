@@ -1,7 +1,7 @@
 <?php
 include 'header.php';
 ?>
-
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <div class='container mr-5 mt-5 bg-white text-dark'>
 <a href="export.php"><button type="button" class="btn btn-secondary mb-3 mt-2">excel</button></a>
 
@@ -39,7 +39,7 @@ include 'header.php';
                                 });
                                 </script>
                                                           
-                                 <table id="result">
+                                 <table id="result" class="table table-bordered">
                                 
 
                                 </tr>
