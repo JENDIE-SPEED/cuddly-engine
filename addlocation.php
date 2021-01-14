@@ -6,7 +6,7 @@ include'header.php';
 <form form action="insert_location.php" method="post">
   <div class="form-group mt-1">
    
-    <input type="email" class="form-control" name="location" placeholder="Enter Location">
+    <input type="text" class="form-control" name="location" placeholder="Enter Location">
     
   </div>
   

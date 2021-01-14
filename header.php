@@ -46,7 +46,11 @@
   </head>
   <body>
     <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-  <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">User name</a>
+    <div class="profile-dtl">
+                   
+                    <h2 class="navbar-brand col-md-3 col-lg-2 mr-0 px-3">User name</span></h2>
+                </div>
+
   
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
     <a class="nav-item nav-link active" id="nav-home-tab" href="index01.php"  >Home</a>

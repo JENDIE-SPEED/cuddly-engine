@@ -10,7 +10,7 @@ $sql="INSERT INTO `pulse`(`make`, `model`, `pulse`) VALUES('$make','$model','$nu
 $query=mysqli_query($conn,$sql);
 if ($query==true) {
 	# code...
-	header('location:index-1.php');
+	header('location:index01.php');
 } else {
 	# code...
 	echo "data not inserted";

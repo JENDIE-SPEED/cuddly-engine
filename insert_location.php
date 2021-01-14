@@ -7,7 +7,7 @@ $sql="INSERT INTO `location`( `location`) VALUES ('$location')";
 $query=mysqli_query($conn,$sql);
 if ($query===true) {
 	# code...
-	header('location:index-1.php');
+	header('location:index01.php');
 } else {
 	# code...
 	echo "location not inserted";

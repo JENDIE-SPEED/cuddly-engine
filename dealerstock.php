@@ -8,7 +8,7 @@ include'header.php';
                         <div class="product-status-wrap">
                             <h4>dealer List</h4>
                             <div class="add-product">
-                                <a href="product-edit.html">Add Dealers</a>
+                                <a href="adddealer.php">Add Dealers</a>
                             </div>
                             <table class="table table-bordered">
                                 <tr>

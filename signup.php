@@ -71,7 +71,7 @@ if ($user=='super admin') {
   $result=mysqli_query($conn,$sql) or die($conn);
   if (mysqli_num_rows($result)>0) {
     # code...
-    header('location:index-1.php');
+    header('location:index01.php');
   } else {
     # code...
     echo "something is wrong";
@@ -85,7 +85,7 @@ if ($user=='super admin') {
   $result=mysqli_query($conn,$sql) or die($conn);
   if (mysqli_num_rows($result)>0) {
     # code...
-    header('location:index-1.php');
+    header('location:index01.php');
   } else {
     # code...
     echo "something is wrong";

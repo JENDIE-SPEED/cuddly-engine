@@ -58,7 +58,7 @@ if(mysqli_num_rows($result) > 0 )
     <td>'.$row['user'].'</td>
    <td>'.$row['phone'].'</td>
    
-   <td><a href="batch.php?q='.$serial.'"><button>RENEW</button></a></td>
+   <td><a href="batch.php?q='.$serial.'"><button class="btn btn-primary btn-sm">RENEW</button></a></td>
    </tr>
   ';
  }

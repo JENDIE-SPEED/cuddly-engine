@@ -1,7 +1,8 @@
 
 <?php
-include 'header.php';
+
 session_start();
+include 'header.php';
 include 'auth.php';
 include 'db.php';
 $company=$_SESSION['company'];

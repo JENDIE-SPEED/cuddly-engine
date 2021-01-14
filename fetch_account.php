@@ -49,7 +49,7 @@ if(mysqli_num_rows($result) > 0)
     <td>'.$row['date'].'</td>
     <td>'.$row['user'].'</td>
    <td>'.$row['phone'].'</td>
-   <td><a href="create_account_dealer.php?serial='.$serial.'"><button>CREATE</button></a></td>
+   <td><a href="create_account_dealer.php?serial='.$serial.'"><button class="btn btn-primary btn-sm" >CREATE</button></a></td>
    </tr>
   ';
  }
