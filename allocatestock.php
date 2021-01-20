@@ -1,20 +1,21 @@
 <?php
 include'header.php';
 ?>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<div class='container  mt-5 bg-white text-dark'>
 
-<div class='container mr-5 mt-5 bg-white text-dark'>
+
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+
+</head>
 
 
 
-            <div class="wrap-table100">
-                <div class="table100 ver1 m-b-110">
-                    <div class="table100-head">
-                        <table>
-   <form method="post" id="framework_form" enctype="multipart/form-data" action="allocate_stock.php" >
-    <div class="form-group">
-     <tr><td><label>Select Serial</label></td>
-     <td><select id="framework" name="framework[]" multiple="multiple" multiple class="form-control" >
-                                          <option value="16100000142�" >16100000142�</option>
+<form>
+<h2>Serial Number</h2>
+<select theme="google" width="400" style="" placeholder="Select Your Serial" data-search="true">
+	  <option value="16100000142" >16100000142</option>
                                                                         <option value="16100000107" >16100000107</option>
                                                                         <option value="16100000485" >16100000485</option>
                                                                         <option value="16100000443" >16100000443</option>
@@ -953,14 +954,10 @@ include'header.php';
                                                                         <option value="11040969855" >11040969855</option>
                                                                         <option value="10043632297" >10043632297</option>
                                                                         <option value="10043645497" >10043645497</option>
-                                                                
-     </select></td></tr>
-     
-    <tr><td> <label>Choose dealer</label></td>
-    <td> <select name="dealers" required/>
-        
-                            
-                                                                <option value="SPAKS TECHNICAL" >SPAKS TECHNICAL</option>
+</select>
+<h2>Dealer </h2>
+<select theme="google" width="400" style="" placeholder="Select Your Dealer" data-search="true">
+	option value="SPAKS TECHNICAL" >SPAKS TECHNICAL</option>
                                                                         <option value="VICOT LIMITED" >VICOT LIMITED</option>
                                                                         <option value="PATROSE CONSTRUCTION EQUIPMENTS" >PATROSE CONSTRUCTION EQUIPMENTS</option>
                                                                         <option value="DIGITAL ELECTRICALS" >DIGITAL ELECTRICALS</option>
@@ -1076,38 +1073,83 @@ include'header.php';
                                                                         <option value="WARIA AUTO" >WARIA AUTO</option>
                                                                         <option value="PLO" >PLO</option>
                                                                         <option value="ELIGIBLE" >ELIGIBLE</option>
-                                                                    </select></td>
-                            </tr>
-    </div>
-    </div>
-    <tr>
-        <td>
-     <input type="submit" class="btn btn-info" name="submit"/>
-     </td>
- </tr>
-    </div>
-   </form>
-   </table>
-   <br />
-  </div>
- </body>
-</html>
+</select>
+<br><br>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
 
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script src="js/selectstyle.js">
+    
+</script>
 <script>
-$(document).ready(function(){
- $('#framework').multiselect({
-  nonSelectedText: 'Select serial',
-  enableFiltering: true,
-  enableCaseInsensitiveFiltering: true,
-  buttonWidth:'400px'
- });
- 
- 
-  });
+jQuery(document).ready(function($) {
+	$('select').selectstyle({
+		width  : 400,
+		height : 300,
+		theme  : 'light',
+		onchange : function(val){}
+	});
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
 </script>
+</body>
+<style>
+    /** default and google theme **/
+.selectstyle{position:relative;}
+.ss_dib{display:inline-block;vertical-align:top;}
+.ss_button{margin:0;vertical-align:top;color:#595959;border: 1px solid #cbcbcb;border-radius:3px;width:250px;cursor:pointer;text-decoration:none;background:none;padding:10px;overflow:hidden;clear:both;display:inline-block;vertical-align:top;font-size:12px;font-weight:bold;word-break:break-all;}
+.ss_text{white-space:normal;text-overflow:ellipsis;text-indent:0;white-space:nowrap;overflow:hidden;}
+.ss_image{position:absolute;width:7px;height:11px;background:url('../images/google.png') no-repeat;}
+.ss_ul{list-style:none;padding:8px 0; margin:0; margin-top:-35px;position:absolute;background:#fff;border:1px solid #ccc;-moz-box-shadow:0 1px 5px 1px rgba(0,0,0,0.1);-webkit-box-shadow:0 1px 5px 1px rgba(0,0,0,0.1);box-shadow:0 1px 5px 1px rgba(0,0,0,0.1); border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px; display:none;overflow:auto;z-index:100;}
+.ss_ulsearch{margin:0; margin-top:-35px;position:absolute;background:#fff;border:1px solid #ccc;-moz-box-shadow:0 1px 5px 1px rgba(0,0,0,0.1);-webkit-box-shadow:0 1px 5px 1px rgba(0,0,0,0.1);box-shadow:0 1px 5px 1px rgba(0,0,0,0.1); border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;overflow:auto;z-index:100;display:none;}
+.ss_ulsearch .ss_ul{display:block;position:relative;margin-top:0;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;}
+.ss_ulsearch .search{border-bottom:1px solid #ccc;padding:0;}
+.ss_ulsearch .search input{background:inherit;border:none;height:100%;padding:10px 15px;outline:none;font-size:14px;width:calc(100% - 30px);width:-webkit-calc(100% - 30px);width:-moz-calc(100% - 30px);width:-o-calc(100% - 30px);background:url('../images/ful_grid_img.png') no-repeat;background-position: top 8px right 6px;}
+.ss_ulsearch .search input:focus{outline:none;}
+.ss_ulsearch .nosearch{text-align:center;font-size:12px;padding-bottom:10px;background:#fff;}
+.ss_ul li{padding:10px 15px;cursor:pointer;border:none;text-align:left;color:#595959;transition-duration:.3s;-moz-transition-duration:.3s;-webkit-transition-duration:.3s;-o-transition-duration:.3s;font-size:14px;}
+.ss_ul li:hover{border:none;background:#eee;}
+.ss_ul li .ssli_text{vertical-align:top;display:inline-block;}
+.ss_ul li .ssli_image{display:inline-block;width:16px;height:16px;margin-right:10px;margin-top:-1px;vertical-align:top;}
+.ss_ul li .ssli_image img{width:16px;height:16px;}
+.ss_ul::-webkit-scrollbar {width:10px;}
+.ss_ul::-webkit-scrollbar:horizontal{height:10px;}
+.ss_ul::-webkit-scrollbar-track {border-left:1px solid #D3D3D3;background:#F5F5F5;}
+.ss_ul::-webkit-scrollbar-thumb {background:#C4C4C4;}
 
 
+/** Dark theme **/
+.selectstyle.dark{position:relative;}
+.selectstyle.dark .ss_button{color:#eee;border: 1px solid #ccc;background:#5B5B5B;}
+.selectstyle.dark .ss_image{width:16px;height:16px;background:url('../images/br_down.png') no-repeat;margin-left:-8px;margin-top:-2px;}
+.selectstyle.dark .ss_ul{background:#777;border-color:#333;-moz-box-shadow:0 1px 5px 1px rgba(255,255,255,0.15);-webkit-box-shadow:0 1px 5px 1px rgba(255,255,255,0.15);box-shadow:0 1px 5px 1px rgba(255,255,255,0.15);}
+.selectstyle.dark .ss_ulsearch .ss_ul{display:block;position:relative;margin-top:0;border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none; border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;}
+.selectstyle.dark .ss_ulsearch{background:#5B5B5B;border-color:#333;-moz-box-shadow:0 1px 5px 1px rgba(255,255,255,0.15);-webkit-box-shadow:0 1px 5px 1px rgba(255,255,255,0.15);box-shadow:0 1px 5px 1px rgba(255,255,255,0.15);}
+.selectstyle.dark .ss_ulsearch .search{border-bottom-color:#333;}
+.selectstyle.dark .ss_ulsearch .search input{background:url('../images/search.png') no-repeat;background-position: top 8px right 6px;background-size:24px 24px;color:#eee;}
+.selectstyle.dark .ss_ulsearch .nosearch{background:#777;}
+.selectstyle.dark .ss_ul li{color:#ddd;}
+.selectstyle.dark .ss_ul li:hover{border:none;background:#444;color:#eee;}
+.selectstyle.dark .ss_ul::-webkit-scrollbar-track {border-left:1px solid #333;background:#888;}
+.selectstyle.dark .ss_ul::-webkit-scrollbar-thumb {background:#5B5B5B;}
+
+</style>
+</html>
 
 
 </div>

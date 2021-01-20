@@ -3,7 +3,7 @@ include'header.php';
 ?>
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
-<div class='container mr-5 mt-5 bg-white text-dark'>
+<div class='container  mt-5 bg-white text-dark'>
 <form action="signup.php" method="post">
   <div class="form-row">
     <div class="col-5 mt-1 ">

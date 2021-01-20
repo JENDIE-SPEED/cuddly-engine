@@ -13,7 +13,7 @@ $user=  $_SESSION['user'];
     $row=mysqli_fetch_array($query);
 ?>
 
-<div class="container mt-5 mr-5" style="background-color:white;">
+<div class="container mt-5 " style="background-color:white;">
 
 <div class="wrap-table100">
                 <div class="table100 ver1 m-b-110">

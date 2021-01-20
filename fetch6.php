@@ -43,7 +43,7 @@ if(mysqli_num_rows($result) > 0)
     <td>'.$row['phone'].'</td>
     <td>'.$row['branch'].'</td>
      <td>'.$row['dealer'].'</td>
-    <td><a href="return.php?id='.$row['id'].'"><button>return</button></a></td>
+    <td><a href="return.php?id='.$row['id'].'"><button class="btn btn-primary">return</button></a></td>
     
    </tr>
   ';

@@ -1,8 +1,11 @@
 <?php
 include 'header.php';
 include 'db.php';
+
+
+
 ?>
-<div class="container mt-5 mr-5" style="background-color:white;">
+<div class="container mt-5 " style="background-color:white;">
 <form  method="post" action="precert.php">
   <div class="form-row p-1">
     <div class="form-group col-md-6">
@@ -30,28 +33,22 @@ include 'db.php';
     <div class="form-group col-md-6">
     <input type="text" class="form-control" placeholder="Make" id="make">
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-4 ">
+
     <?php
+    echo "<input id='serial' list='serial1' placeholder='Search Serial' class='form-control'>
+    <datalist id='serial1'>";
+    $sql="SELECT serial FROM alocate_serial";
+    foreach($conn->query($sql) as $row){
+      echo "<option value='$row[serial]'/>";
+    } 
+    echo "</datalist>";
+   
 
+      ?>
     
-      
-    $result = mysqli_query($conn, "SELECT `serial` FROM `alocate_serial`  ");
-    echo "<select   class='form-control'  >";
-    echo"<option > Search Serial </option>";
-    while ($row = mysqli_fetch_array($result))
-
-    {  $outserial=json_encode($row[serial]);
-    
-      echo "<option id='serial'> $outserial </option>";
-    }
-
-
-
-    echo "</select>";
-
-    ?>
-      
-    </div>
+    </div>  
+   
     <div class="form-group col-md-2">
       
     <input type="text" class="form-control" placeholder="Comment" id="model">
@@ -117,4 +114,3 @@ include 'db.php';
 </form>
 
 </div>
-

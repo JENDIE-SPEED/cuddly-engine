@@ -2,7 +2,7 @@
 include'header.php';
 ?>
 
-<div class='container mr-5 mt-5 bg-white text-dark'>
+<div class='container mt-5 bg-white text-dark'>
 
 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

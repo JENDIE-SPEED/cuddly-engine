@@ -13,7 +13,7 @@ $user=  $_SESSION['user'];
     $query=mysqli_query($conn,$sql);
     $row=mysqli_fetch_array($query);
 ?>
-<div class='container mr-5 mt-5 bg-white text-dark'>
+<div class='container  mt-5 bg-white text-dark'>
 
 <form>
 			<label>Mpesa Code </label>

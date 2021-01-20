@@ -11,7 +11,7 @@ $user=  $_SESSION['user'];
 ?>
 
 
-<div class='container mr-5 mt-5 bg-white text-dark'>
+<div class='container mt-5 bg-white text-dark'>
   <div class="table100-body js-pscroll">
                         <table class="table table-bordered table-striped table-hover">
                             <tbody>
