@@ -22,15 +22,15 @@ $role=$_SESSION['role'];
 	
 	elseif (strcmp($otp, $onetime) === 0  && $role==='accounts') {
 		# code...
-		header('location:accounts.php');
+		header('location:accountnew.php');
 	}
 	elseif (strcmp($otp, $onetime) === 0  && ($role==='dealers')) {
 		# code...
-		header('location:index-1.php');
+		header('location:index-d.php');
 	}
 	elseif (strcmp($otp, $onetime) === 0  && ($role==='user')) {
 		# code...
-		header('location:index-1.php');
+		header('location:index-u.php');
 	}
 	elseif (strcmp($otp, $onetime) === 0  && ($role==='super admin')) {
 		# code...

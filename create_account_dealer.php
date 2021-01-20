@@ -1,8 +1,24 @@
 <?php
+
 session_start();
-include 'header.php';
 require 'auth.php';
-require 'db.php';
+include 'db.php';
+$role=$_SESSION['role'];
+if ($role==='dealers') {
+  # code...
+include 'dealerheader.php';
+}
+elseif ($role==='user'){
+  # code...
+  include 'userheader.php';
+}
+else {
+  include 'header.php';
+};
+
+
+
+
 $company=$_SESSION['company'];
 $serial=$_GET['serial'];
 $user=  $_SESSION['user'];

@@ -1,7 +1,24 @@
 <?php
+
 session_start();
-include 'header.php';
-require 'db.php';
+require 'auth.php';
+include 'db.php';
+$role=$_SESSION['role'];
+if ($role==='dealers') {
+  # code...
+include 'dealerheader.php';
+}
+elseif ($role==='user'){
+  # code...
+  include 'userheader.php';
+}
+else {
+  include 'header.php';
+};
+
+
+
+
 $company=$_SESSION['company'];
     $id=$_GET['id'];
     $_SESSION['vin']=$id;

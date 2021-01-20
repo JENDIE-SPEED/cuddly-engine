@@ -1,5 +1,23 @@
+
 <?php
-include'header.php';
+
+session_start();
+require 'auth.php';
+include 'db.php';
+$role=$_SESSION['role'];
+if ($role==='dealers') {
+  # code...
+include 'dealerheader.php';
+}
+elseif ($role==='user'){
+  # code...
+  include 'userheader.php';
+}
+else {
+  include 'header.php';
+};
+
+
 ?>
  <script src="https://use.fontawesome.com/40c901b2cc.js"></script>
 <div class='container  mt-5 bg-white text-dark'>

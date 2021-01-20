@@ -1,6 +1,7 @@
 <?php 
-session_start();
+
 include 'db.php';
+
 
 $email=$_SESSION['user'];
 ?>
@@ -64,7 +65,7 @@ $email=$_SESSION['user'];
       <div class="sidebar-heading"><?php echo $email ?> </div>
       
       <div class="sidebar-sticky pt-3">
-        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index01.php"> <img src="assets/img/JEND.png"></a>
+        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index-d.php"> <img src="assets/img/JEND.png"></a>
         <ul class="nav flex-column" style="position:fixed;">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" ><i class="fas fa-home " aria-hidden="true"></i><span class="ml-1"></span>Main</a>
@@ -74,18 +75,14 @@ $email=$_SESSION['user'];
               <a class="dropdown-item" href="renewed.php">Renewed</a>
               <a class="dropdown-item" href="upcoming.php">Upcoming Renewals</a>
               <a class="dropdown-item" href="technicianz.php">Technician</a>
-              <a class="dropdown-item" href="exportdate.php">Export Date</a>
-              <a class="dropdown-item" href="exportcustomer.php">Export Customer</a>
+            
+              
+      
              
-              <a class="dropdown-item" href="dealer.php">Dealer</a>
-             
-              <a class="dropdown-item" href="addstock.php">Add Stock</a>
-              <a class="dropdown-item" href="allocatestock.php">Allocate Stock</a>
-              <a class="dropdown-item" href="dealerstock.php">Dealer Stock</a>
+            
+            
               <a class="dropdown-item" href="pendingstock.php">Pending Stock</a>
             
-              <a class="dropdown-item" href="reversestock.php">Reverse Stock</a>
-              <a class="dropdown-item" href="#">Sales summary</a>
               <a class="dropdown-item" href="analytics.php">Sales Analytics</a>
             
           </li>
@@ -101,10 +98,8 @@ $email=$_SESSION['user'];
             <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-plus" aria-hidden="true"></i><span class="ml-1"></span>Add Users</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="addtech.php">Technician</a>
-              <a class="dropdown-item" href="companyuser.php">Company Users</a>
-              <a class="dropdown-item" href="adddealer.php">Dealers</a>
+              
           
-              <a class="dropdown-item" href="addlocation.php">Add Location</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -112,10 +107,8 @@ $email=$_SESSION['user'];
             <div class="dropdown-menu">
               <a class="dropdown-item" href="renewal.php">Renewal</a>
               <a class="dropdown-item" href="pending.php">Pending</a>
-              <a class="dropdown-item" href="approve.php">Approve</a>
+           
               
-              <a class="dropdown-item" href="transactions.php">Transactions</a>
-              <a class="dropdown-item" href="lpo.php">LPOs & Cheques</a>
             </div>
 
           </li>
@@ -143,19 +136,10 @@ $email=$_SESSION['user'];
                   <?php 
                   $directory="../panel/ledgerlist.php"
                   ?>
-                  <a class="dropdown-item" href="addpulse.php"> Add Pulses</a>
+                
                  
                 </div>
               </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-ban" aria-hidden="true"></i><span class="ml-1"></span>Suspended</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="suspendedtech.php">Suspended Technician</a>
-                  
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="suspendeddealer.php">Suspended Dealers</a>
-                  </div>
-                </li> 
                
         </ul>
 
@@ -165,38 +149,32 @@ $email=$_SESSION['user'];
     <!-- /#sidebar-wrapper -->
 
     <!-- Page Content -->
-    <div id="page-content-wrapper">
+     <!-- Page Content -->
+     <div id="page-content-wrapper">
 
-       <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-    <div class="profile-dtl">
-        <button class="btn btn-primary" id="menu-toggle">  <span class="navbar-toggler-icon"></span></button>
-       
-          
-                </div>
-
-  
-  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <a class="nav-item nav-link active" id="nav-home-tab" href="index01.php"  >Home</a>
-    <div class="dropdown show">
-    <a class="nav-item nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"  href="#nav-profile" >Switch </a>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="accountnew.php">Accounts</a>
-    <a class="dropdown-item" href="cancel.php">Cancel</a>
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+<div class="profile-dtl">
+ <button class="btn btn-primary" id="menu-toggle">  <span class="navbar-toggler-icon"></span></button>
 
    
-  </div>
-  </div>
+         </div>
 
-    <a class="nav-item nav-link" id="nav-contact-tab" href="logout.php" >Logout</a>
-  </div>
+
+<div class="nav nav-tabs" id="nav-tab" role="tablist">
+<a class="nav-item nav-link active" id="nav-home-tab" href="index01.php"  >Home</a>
+<div class="dropdown show">
+<a class="nav-item nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"  href="#nav-profile" >Switch </a>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+<a class="dropdown-item" href="#">0000</a>
+<a class="dropdown-item" href="#">0000</a>
+
+
+</div>
+</div>
+
+<a class="nav-item nav-link" id="nav-contact-tab" href="logout.php" >Logout</a>
+</div>
 </nav>
-
-      <div class="container-fluid">
-        
-    <!-- /#page-content-wrapper -->
-
-  </div>
-  <!-- /#wrapper -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

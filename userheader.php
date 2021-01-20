@@ -1,9 +1,3 @@
-<?php 
-session_start();
-include 'db.php';
-
-$email=$_SESSION['user'];
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,10 +55,10 @@ $email=$_SESSION['user'];
 
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper" style="background-color:rgb(41, 37, 36);opacity:0.8; ">
-      <div class="sidebar-heading"><?php echo $email ?> </div>
+      <div class="sidebar-heading">Username </div>
       
       <div class="sidebar-sticky pt-3">
-        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index01.php"> <img src="assets/img/JEND.png"></a>
+        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index-u.php"> <img src="assets/img/JEND.png"></a>
         <ul class="nav flex-column" style="position:fixed;">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" ><i class="fas fa-home " aria-hidden="true"></i><span class="ml-1"></span>Main</a>
@@ -114,8 +108,6 @@ $email=$_SESSION['user'];
               <a class="dropdown-item" href="pending.php">Pending</a>
               <a class="dropdown-item" href="approve.php">Approve</a>
               
-              <a class="dropdown-item" href="transactions.php">Transactions</a>
-              <a class="dropdown-item" href="lpo.php">LPOs & Cheques</a>
             </div>
 
           </li>
@@ -176,12 +168,12 @@ $email=$_SESSION['user'];
 
   
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
-    <a class="nav-item nav-link active" id="nav-home-tab" href="index01.php"  >Home</a>
+    <a class="nav-item nav-link active" id="nav-home-tab" href="index-u.php"  >Home</a>
     <div class="dropdown show">
     <a class="nav-item nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"  href="#nav-profile" >Switch </a>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="accountnew.php">Accounts</a>
-    <a class="dropdown-item" href="cancel.php">Cancel</a>
+    <a class="dropdown-item" href="#">00000</a>
+    <a class="dropdown-item" href="#">00000</a>
 
    
   </div>

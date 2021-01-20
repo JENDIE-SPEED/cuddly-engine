@@ -1,7 +1,20 @@
 <?php
-include 'header.php';
-include 'db.php';
 
+session_start();
+require 'auth.php';
+include 'db.php';
+$role=$_SESSION['role'];
+if ($role==='dealers') {
+  # code...
+include 'dealerheader.php';
+}
+elseif ($role==='user'){
+  # code...
+  include 'userheader.php';
+}
+else {
+  include 'header.php';
+}
 
 
 ?>
@@ -10,20 +23,20 @@ include 'db.php';
   <div class="form-row p-1">
     <div class="form-group col-md-6">
      
-    <input type="text" class="form-control" placeholder="Name" id="name">
+    <input type="text" class="form-control" placeholder="Name" name="cus_name" id="name">
     </div>
     <div class="form-group col-md-6">
-    <input type="text" class="form-control" placeholder="Contact" id="contact">
+    <input type="text" class="form-control" placeholder="Contact" name="contact" id="contact">
       </div>
   </div>
 
   <div class="form-row">
     <div class="form-group col-md-6">
       
-    <input type="text" class="form-control" placeholder="Registration" id="regis">
+    <input type="text" class="form-control" placeholder="Registration"  name="name" id="regis">
     </div>
     <div class="form-group col-md-6">
-    <input type="text" class="form-control" placeholder="Chasis" id="chasis">
+    <input type="text" class="form-control" placeholder="Chasis" name="chasis" id="chasis">
     </div>
   </div>
   
@@ -31,12 +44,12 @@ include 'db.php';
   
   <div class="form-row">
     <div class="form-group col-md-6">
-    <input type="text" class="form-control" placeholder="Make" id="make">
+    <input type="text" class="form-control" placeholder="Make" name="make" id="make">
     </div>
     <div class="form-group col-md-4 ">
 
     <?php
-    echo "<input id='serial' list='serial1' placeholder='Search Serial' class='form-control'>
+    echo "<input id='serial' list='serial1' placeholder='Search Serial' class='form-control' name='serial' >
     <datalist id='serial1'>";
     $sql="SELECT serial FROM alocate_serial";
     foreach($conn->query($sql) as $row){
@@ -51,33 +64,29 @@ include 'db.php';
    
     <div class="form-group col-md-2">
       
-    <input type="text" class="form-control" placeholder="Comment" id="model">
+    <input type="text" class="form-control" placeholder="Comment" name='message'  id="comment">
     </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
-    <input type="text" class="form-control" placeholder="Model" id="ins">
+    <input type="text" class="form-control" placeholder="Model" name="model" id="ins">
     </div>
     <div class="form-group col-md-4">
      
     
+      
       <?php
-
-    
+    echo "<input id='tech' list='tech1' placeholder='Search Technician' class='form-control'  name='service' >
+    <datalist id='tech1'>";
+    $sql="SELECT `first_name` FROM `technician` ";
+    foreach($conn->query($sql) as $row){
+      echo "<option value='$row[first_name]'/>";
+    } 
+    echo "</datalist>";
    
-      $result = mysqli_query($conn, "SELECT `first_name` FROM `technician`  ");
-      echo "<select  class='form-control' >";
-      echo"<option > Technician </option>";
-      while ($row = mysqli_fetch_array($result))
-      {
-        echo "<option id='tech' > $row[first_name] </option>";
-      }
-
-
-
-      echo "</select>";
 
       ?>
+    
 
     </div>
     <div class="form-group col-md-2">
