@@ -1,113 +1,210 @@
 <?php
 
-include "header.php";
+session_start();
+require 'auth.php';
+include 'db.php';
+include 'header.php';
+$company=$_SESSION['company'];
 ?>
-
 <div class='container-fluid mt-5'>
 
-<div class="card-deck m-2">
+<div class="card-deck m-2 ml-5">
 <!--prog1-->
-  <div class="card  bg-dark">
-  
-    <div class="card-body">
+<div class="card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header text-light bg-dark" border-success">Daily Installations</div>
+  <div class="card-body text-white "style="background-color:rgb(41, 37, 36);opacity:0.8;">
     
-      
-      <p class="card-text text-light">Daily Installations</p>
-      <span class="income-percentange bg-green"><a target="_blank" href="daily_reports.php"><span class="counter">pdf</span></a>
-      <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="18" aria-valuemin="0" aria-valuemax="100" style="width:35%">
-    18
+    <p class="card-text"><h1>
+    <?php
+                                         $date=date('Y-m-d'); 
+                                         if ($company==='JENDIE') {
+                                             # code...
+                                            $date=date('Y-m-d');
+                                        $sql="SELECT * FROM work where problem='INSTALLATION' and `date`='$date' ";
+                                        $query=mysqli_query($conn,$sql);
+                                        $count=mysqli_num_rows($query);
+                                        ?>
+                                        <h3><span class="counter"><?php echo $count; ?></span></h3>
+                                        <?php
+                                         } else {
+                                             # code...
+                                            $date=date('Y-m-d');
+                                        $sql="SELECT * FROM work where problem='INSTALLATION' and `date`='$date' and dealer='$company'";
+                                        $query=mysqli_query($conn,$sql);
+                                        $count=mysqli_num_rows($query);
+                                        ?>
+                                        <h3><span class="counter"><?php echo $count; ?></span></h3>
+                                        <?php
+                                         }
+                                         
+                                        ?>
+    </h1></p>
   </div>
-</div>
-</div>
+  <div class="card-footer bg-transparent border-success"><a target="_blank" href="daily_reports.php"><button class="btn btn-primary">PDF</button></a></div>
 </div>
 
 <!--prog2-->
-<div class="card  bg-dark">
-  
-    <div class="card-body">
+<div class="card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header text-light bg-dark" border-success">Daily Renewals</div>
+  <div class="card-body text-white "style="background-color:rgb(41, 37, 36);opacity:0.8;">
     
-      
-      <p class="card-text text-light">Daily Renewals</p>
-      <span class="income-percentange bg-green"><a target="_blank" href="daily_renewals.php"><span class="counter">pdf</span></a>
-      <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-    15
+    <p class="card-text"><h1>
+    <?php 
+                                        if ($company==='JENDIE') {
+                                             # code...
+                                            $date=date('Y-m-d');
+                                        $sql="SELECT * FROM work where problem='renewal' and `date`='$date'";
+                                        $query=mysqli_query($conn,$sql);
+                                        $count=mysqli_num_rows($query);
+                                        ?>
+                                         <h3><span></span><span class="counter"> <?php echo $count ;?></span></h3>
+                                         <?php
+                                         } else {
+                                             # code...
+                                            $date=date('Y-m-d');
+                                        $sql="SELECT * FROM work where problem='renewal' and `date`='$date' and dealer='$company'";
+                                        $query=mysqli_query($conn,$sql);
+                                        $count=mysqli_num_rows($query);
+                                            ?>
+                                             <h3><span></span><span class="counter"> <?php echo $count ;?></span></h3>
+                                             <?php
+                                         }
+                                        
+                                        ?>
+                                       
+    </h1></p>
   </div>
+  <div class="card-footer bg-transparent border-success"><a target="_blank" href="daily_renewals.php"><button class="btn btn-primary">PDF</button></a></div>
 </div>
-</div>
-</div>
-
 <!--prog3-->
-<div class="card  bg-dark">
-  
-    <div class="card-body">
+<div class="card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header text-light bg-dark" border-success">Weekly Installations</div>
+  <div class="card-body text-white "style="background-color:rgb(41, 37, 36);opacity:0.8;">
     
-      
-      <p class="card-text text-light"><a target="_blank" href="weekly_report.php"> WEEKLY INSTALLATIONS</a></p>
-      <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:20%">
-  <span class="counter">  320</span>
+    <p class="card-text"><h1>
+    <?php
+                                    if ($company==='JENDIE') {
+                                             # code...
+                                        $newdate = strtotime ( '-7 day' , strtotime ( $date ) ) ;
+                                       $newdate = date ( 'Y-m-d' , $newdate ); 
+                                      
+                                    $sql="SELECT * from work where problem='INSTALLATION' and `date` BETWEEN '$newdate' and '$date';";
+                                     $query=mysqli_query($conn,$sql);
+                                     echo $count=mysqli_num_rows($query);
+                                         } else {
+                                             # code...
+                                             $newdate = strtotime ( '-7 day' , strtotime ( $date ) ) ;
+                                       $newdate = date ( 'Y-m-d' , $newdate ); 
+                                    
+                                    $sql="SELECT * from work where problem='INSTALLATION' and dealer='$company' and `date` BETWEEN '$newdate' and '$date' ;";
+                                     $query=mysqli_query($conn,$sql);
+                                     echo $count=mysqli_num_rows($query);
+                                         }
+
+                                    ?>
+    </h1></p>
   </div>
-</div>
-</div>
+  <div class="card-footer bg-transparent border-success"><a target="_blank" href="weekly_report.php"><button class="btn btn-primary">PDF</button></a></div>
 </div>
 
 </div>
 
 <!--cardrow2-->
 
-<div class="card-deck m-2">
+<div class="card-deck m-2 ml-5">
 <!--prog1-->
-  <div class="card  bg-dark">
-  
-    <div class="card-body">
+<div class="card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header text-light bg-dark" border-success">Weekly Renewals</div>
+  <div class="card-body text-white "style="background-color:rgb(41, 37, 36);opacity:0.8;">
     
-      
-      <p class="card-text text-light"><a target="_blank" href="week-renewals.php">WEEKLY RENEWALS</a></p>
-      <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:10%">
-  <span class="counter">  204</span>
+    <p class="card-text"><h1>
+    <?php
+                                    if ($company==='JENDIE') {
+                                             # code...
+                                        $newdate = strtotime ( '-7 day' , strtotime ( $date ) ) ;
+                                       $newdate = date ( 'Y-m-d' , $newdate ); 
+                                      
+                                    $sql="SELECT * from work where problem='RENEWAL' and `date` BETWEEN '$newdate' and '$date';";
+                                     $query=mysqli_query($conn,$sql);
+                                     echo $count=mysqli_num_rows($query);
+                                         } else {
+                                             # code...
+                                             $newdate = strtotime ( '-7 day' , strtotime ( $date ) ) ;
+                                       $newdate = date ( 'Y-m-d' , $newdate ); 
+                                    
+                                    $sql="SELECT * from work where problem='RENEWAL' and dealer='$company' and `date` BETWEEN '$newdate' and '$date' ;";
+                                     $query=mysqli_query($conn,$sql);
+                                     echo $count=mysqli_num_rows($query);
+                                         }
+
+                                    ?>
+    </h1></p>
   </div>
+  <div class="card-footer bg-transparent border-success"><a target="_blank" href="week-renewals.php"><button class="btn btn-primary">PDF</button></a></div>
 </div>
-</div>
-</div>
+
 
 <!--prog2-->
-<div class="card  bg-dark">
-  
-    <div class="card-body">
+<div class="card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header text-light bg-dark" border-success">Monthly Installations</div>
+  <div class="card-body text-white "style="background-color:rgb(41, 37, 36);opacity:0.8;">
     
-      
-      <p class="card-text text-light"><a target="_blank" href="monthly_report.php"> MONTHLY INSTALLATIONS </a></p>
-      <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-  <span class="counter"> 18379</span>
+    <p class="card-text"><h1>
+    <h2><span class="counter"><?php
+                                if ($company==='JENDIE') {
+                                             # code...
+                                    $newdate = date ( 'm-Y'); 
+                                    $newdate1='1-'.$newdate;
+                                      
+                                    $sql="SELECT * from work where problem='INSTALLATION' and `date` BETWEEN '$newdate1' and '$date';";
+                                     $query=mysqli_query($conn,$sql);
+                                      echo $count=mysqli_num_rows($query);
+                                         } else {
+                                             # code...
+                                            $newdate = date ( 'm-Y'); 
+                                        $newdate1='1-'.$newdate;
+                                       
+                                    $sql="SELECT * from work where problem='INSTALLATION' and dealer='$company' and `date` BETWEEN '$newdate1' and '$date'  ;";
+                                     $query=mysqli_query($conn,$sql);
+                                      echo $count=mysqli_num_rows($query);
+                                         }
+                                       
+                                     ?>
+    </h1></p>
   </div>
-</div>
-</div>
+  <div class="card-footer bg-transparent border-success"><a target="_blank" href="monthly_report.php"><button class="btn btn-primary">Monthly Report</button></a></div>
 </div>
 
+
 <!--prog3-->
-<div class="card  bg-dark">
-  
-    <div class="card-body">
+<div class="card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header text-light bg-dark" border-success">Weekly Renewals</div>
+  <div class="card-body text-white "style="background-color:rgb(41, 37, 36);opacity:0.8;">
     
-    
-      
-      <p class="card-text text-light"><a target="_blank" href="monthly_renewals.php">
-                                 MONTHLY RENEWALS </a></p>
-      <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar"
-  aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-  <span class="counter">1628</span>
+    <p class="card-text"><h1>
+    <?php
+                                if ($company==='JENDIE') {
+                                             # code...
+                                    $newdate = date ( 'm-Y'); 
+                                    $newdate1='1-'.$newdate;
+                                      
+                                    $sql="SELECT * from work where problem='RENEWAL' and `date` BETWEEN '$newdate1' and '$date';";
+                                     $query=mysqli_query($conn,$sql);
+                                      echo $count=mysqli_num_rows($query);
+                                         } else {
+                                             # code...
+                                            $newdate = date ( 'm-Y'); 
+                                        $newdate1='1-'.$newdate;
+                                       
+                                    $sql="SELECT * from work where problem='RENEWAL' and dealer='$company' and `date` BETWEEN '$newdate1' and '$date'  ;";
+                                     $query=mysqli_query($conn,$sql);
+                                      echo $count=mysqli_num_rows($query);
+                                         }
+                                       
+                                     ?>
+    </h1></p>
   </div>
-</div>
+  <div class="card-footer bg-transparent border-success"><a target="_blank" href="monthly_renewals.php"><button class="btn btn-primary">Monthly Report</button></a></div>
 </div>
 </div>
 

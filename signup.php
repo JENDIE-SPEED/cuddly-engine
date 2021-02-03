@@ -67,29 +67,32 @@ if ($user=='super admin') {
   $encryption_key = 'KZ4LurHESC0Y8/Ufy1wsio6aaYXW7m7KVuW8NBKQhE5CnLspz+540p1ClhIZvKNx';
   $cryptor = new Cryptor($encryption_key);
   $encrypted_token = $cryptor->encrypt($password);
-  $sql="INSERT INTO `users`(`firstname`, `secondname`, `email`, `position`, `number`,  `branch`, `password`,`company`,`otp`,`renewal`) values('$firstname','$lastname','$email','$role','$number','$branch','$encrypted_token','JENDIE','0','0')";
-  $result=mysqli_query($conn,$sql) or die($conn);
-  if (mysqli_num_rows($result)>0) {
-    # code...
-    header('location:index01.php');
-  } else {
-    # code...
-    echo "something is wrong";
-  }
+
+  $sql = "INSERT INTO users (`firstname`, `secondname`, `email`, `position`, `number`,  `branch`, `password`,`company`,`otp`,`renewal`) VALUES ( '$firstname','$lastname','$email','$role','$number','$branch','$encrypted_token','JENDIE','0','0' )";
+   $retval = mysqli_query($conn,$sql);
+   
+   if(! $retval ) {
+      die('Could not enter data: ' . mysqli_error($conn));
+   }
+   
+   header('location:index01.php');
+   
+   mysqli_close($conn);
 } else {
   # code...
-  $encryption_key = 'KZ4LurHESC0Y8/Ufy1wsio6aaYXW7m7KVuW8NBKQhE5CnLspz+540p1ClhIZvKNx';
-  $cryptor = new Cryptor($encryption_key);
-  $encrypted_token = $cryptor->encrypt($password);
-  $sql="INSERT INTO `users`(`firstname`, `secondname`, `email`, `position`, `number`,  `branch`, `password`,`company`) values('$firstname','$lastname','$email','user','$number','$branch','$encrypted_token','JENDIE','0','0')";
-  $result=mysqli_query($conn,$sql) or die($conn);
-  if (mysqli_num_rows($result)>0) {
-    # code...
-    header('location:index01.php');
-  } else {
-    # code...
-    echo "something is wrong";
-  }
+   $encryption_key = 'KZ4LurHESC0Y8/Ufy1wsio6aaYXW7m7KVuW8NBKQhE5CnLspz+540p1ClhIZvKNx';
+   $cryptor = new Cryptor($encryption_key);
+   $encrypted_token = $cryptor->encrypt($password);
+   $sql="INSERT INTO `users`(`firstname`, `secondname`, `email`, `position`, `number`,  `branch`, `password`,`company`) values('$firstname','$lastname','$email','user','$number','$branch','$encrypted_token','JENDIE','0','0')";
+   $result=mysqli_query($conn,$sql) or die($conn);
+   if (mysqli_num_rows($result)>0) {
+     # code...
+     header('location:index01.php');
+   } else {
+     # code...
+     echo "something is wrong";
+   }
+  echo "here is the problem";
 }
 
 

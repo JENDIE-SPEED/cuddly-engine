@@ -62,7 +62,8 @@ $email=$_SESSION['user'];
 
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper" style="background-color:rgb(41, 37, 36);opacity:0.8; ">
-      <div class="sidebar-heading"><?php echo $email ?> </div>
+      <div class="sidebar-heading"><?php  $name=$_SESSION['last'];
+                                echo $name;?></div>
       
       <div class="sidebar-sticky pt-3">
         <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index-d.php"> <img src="assets/img/JEND.png"></a>
@@ -165,8 +166,8 @@ $email=$_SESSION['user'];
 <div class="dropdown show">
 <a class="nav-item nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"  href="#nav-profile" >Switch </a>
 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-<a class="dropdown-item" href="#">0000</a>
-<a class="dropdown-item" href="#">0000</a>
+<a class="dropdown-item" href="#">Not Authorized</a>
+
 
 
 </div>

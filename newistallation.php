@@ -3,18 +3,7 @@
 session_start();
 require 'auth.php';
 include 'db.php';
-$role=$_SESSION['role'];
-if ($role==='dealers') {
-  # code...
-include 'dealerheader.php';
-}
-elseif ($role==='user'){
-  # code...
-  include 'userheader.php';
-}
-else {
-  include 'header.php';
-}
+include 'headerconfig.php'
 
 
 ?>
@@ -51,7 +40,8 @@ else {
     <?php
     echo "<input id='serial' list='serial1' placeholder='Search Serial' class='form-control' name='serial' >
     <datalist id='serial1'>";
-    $sql="SELECT serial FROM alocate_serial";
+    //$sql="SELECT serial FROM alocate_serial";
+    $sql="SELECT * from `alocate_serial` WHERE `alocate`=1 and sold=0 and dealer='$company' order by `serial` ASC";
     foreach($conn->query($sql) as $row){
       echo "<option value='$row[serial]'/>";
     } 
@@ -90,7 +80,7 @@ else {
 
     </div>
     <div class="form-group col-md-2">
-    <input type="text" class="form-control"  value="New Installation">
+    <input type="text" class="form-control" name="problem" value="New Installation">
     </div>
   </div>
   

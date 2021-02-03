@@ -1,5 +1,21 @@
 <?php
-include'accountnew.php';
+
+session_start();
+require 'auth.php';
+include 'db.php';
+$role=$_SESSION['role'];
+
+if($role==='super admin') {
+  include 'headeraccount1.php';
+}
+elseif($role==='accounts') {
+    include 'headeraccount.php';
+  }
+else{
+  echo'invalid!';
+}
+
+
 ?>
 
 <div class='container mt-5 bg-white text-dark'>

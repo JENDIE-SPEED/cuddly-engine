@@ -3,19 +3,6 @@
 session_start();
 require 'auth.php';
 include 'db.php';
-$role=$_SESSION['role'];
-if ($role==='dealers') {
-  # code...
-include 'dealerheader.php';
-}
-elseif ($role==='user'){
-  # code...
-  include 'userheader.php';
-}
-else {
-  include 'header.php';
-};
-
 
 
 
@@ -57,9 +44,9 @@ if(mysqli_num_rows($result) > 0)
     <td> '.$row['username'].'</td>    
     <td>'.$row['password'].'</td>
     
-   <td><a href="list_vehicels.php?unique='.$unique.' " target="_blank"><button>View</button></a></td>
-   <td><a href="edit_vehicles.php?unique='.$unique.' " ><button>Edit</button></a></td>
-   <td><a href="delete_vehicles.php?unique='.$unique.' " target="_blank"><button>Delete Car</button></a></td>
+   <td><a href="list_vehicels.php?unique='.$unique.' " target="_blank"><button class="btn btn-primary">View</button></a></td>
+   <td><a href="edit_vehicles.php?unique='.$unique.' " ><button class="btn btn-primary">Edit</button></a></td>
+   <td><a href="delete_vehicles.php?unique='.$unique.' " target="_blank"><button  class="btn btn-primary">Delete Car</button></a></td>
    </tr>
   ';
  }

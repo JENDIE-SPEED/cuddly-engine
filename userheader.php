@@ -1,3 +1,10 @@
+<?php 
+
+include 'db.php';
+
+
+$email=$_SESSION['user'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,7 +62,8 @@
 
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper" style="background-color:rgb(41, 37, 36);opacity:0.8; ">
-      <div class="sidebar-heading">Username </div>
+      <div class="sidebar-heading"><?php  $name=$_SESSION['last'];
+                                echo $name;?></div>
       
       <div class="sidebar-sticky pt-3">
         <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index-u.php"> <img src="assets/img/JEND.png"></a>
@@ -91,16 +99,7 @@
               <a class="dropdown-item" href="viewvehicle.php">View Vehicle</a>
              
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-plus" aria-hidden="true"></i><span class="ml-1"></span>Add Users</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="addtech.php">Technician</a>
-              <a class="dropdown-item" href="companyuser.php">Company Users</a>
-              <a class="dropdown-item" href="adddealer.php">Dealers</a>
-          
-              <a class="dropdown-item" href="addlocation.php">Add Location</a>
-            </div>
-          </li>
+         
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-reply-all" aria-hidden="true"></i><span class="ml-1"></span>Renewal</a>
             <div class="dropdown-menu">
@@ -172,8 +171,8 @@
     <div class="dropdown show">
     <a class="nav-item nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"  href="#nav-profile" >Switch </a>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="#">00000</a>
-    <a class="dropdown-item" href="#">00000</a>
+    <a class="dropdown-item" href="#">Not Authorized</a>
+  
 
    
   </div>

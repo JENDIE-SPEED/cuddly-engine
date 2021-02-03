@@ -13,32 +13,46 @@ $alan='1234';
 $role=$_SESSION['role'];
   
 	# code...
-	if (strcmp($otp, $onetime) === 0 && ($role==='admin' ))
+	/*if (strcmp($otp, $onetime) === 0 && ($role==='admin' ))
 	{
 		
     
-		header('location:index-1.php');
+		header('location:index-u.php');
 	}
+	*/
 	
-	elseif (strcmp($otp, $onetime) === 0  && $role==='accounts') {
+	if (strcmp($otp, $onetime) === 0  && $role==='accounts') {
 		# code...
-		header('location:accountnew.php');
+		header('location:index-accounts.php');
 	}
 	elseif (strcmp($otp, $onetime) === 0  && ($role==='dealers')) {
 		# code...
-		header('location:index-d.php');
+		header('location:index-dealer.php');
+	}
+	elseif (strcmp($otp, $onetime) === 0  && ($role==='stock')) {
+		# code...
+		header('location:index-stock.php');
 	}
 	elseif (strcmp($otp, $onetime) === 0  && ($role==='user')) {
 		# code...
-		header('location:index-u.php');
+		header('location:index-user.php');
 	}
 	elseif (strcmp($otp, $onetime) === 0  && ($role==='super admin')) {
 		# code...
 		header('location:switch.php');
 	}
+	elseif (strcmp($otp, $onetime) === 0  && ($role==='admin')) {
+		# code...
+		header('location:index-admin.php');
+	}
+	elseif (strcmp($otp, $onetime) === 0  && ($role==='director')) {
+		# code...
+		header('location:index-dir.php');
+
+	}	
 	elseif (strcmp($otp, $rits) === 0  && ($email==='ritzcartrackandtracing@gmail.com')) {
 		# code...
-		header('location:index-1.php');
+		header('location:index-user.php');
 	}
 	else
 	{

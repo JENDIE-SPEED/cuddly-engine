@@ -1,6 +1,23 @@
 <?php
-include'accountnew.php';
+
+session_start();
+require 'auth.php';
+include 'db.php';
+$role=$_SESSION['role'];
+
+if($role==='super admin') {
+  include 'headeraccount1.php';
+}
+elseif($role==='accounts') {
+    include 'headeraccount.php';
+  }
+else{
+  echo'invalid!';
+}
+
+
 ?>
+
 
 <div class='container mr-5 mt-5 bg-white text-dark'>
 
@@ -31,7 +48,7 @@ include'accountnew.php';
                 <input id="imageloc" type="text" size="50" value="" /><br />
                 (max width: 540px, max height: 100px)
               </div>
-			  <img id="image" src="images/logo.png" alt="logo" />
+			  <img id="image" src="css/logo.png" alt="logo" />
 			  <h1 class="company"> JENDIE AUTOMOBILES LIMITED </h1>
 			  <p class="email">info@jendiespeedgovernors.com</p>
 			  <h4 class="phone">Tel: 0720522544</h4>

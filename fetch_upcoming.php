@@ -8,7 +8,7 @@ $date1=date('Y-m-d');
 
 $output = '';
 
-$newdate = date ( 'Y-m-d' , $newdate );
+$newdate = date ( 'Y-m-d' );
 echo $newdate;
 if(isset($_POST["query"]))
 {

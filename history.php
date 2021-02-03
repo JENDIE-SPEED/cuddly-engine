@@ -3,21 +3,10 @@
 session_start();
 require 'auth.php';
 include 'db.php';
-$role=$_SESSION['role'];
-if ($role==='dealers') {
-  # code...
-include 'dealerheader.php';
-}
-elseif ($role==='user'){
-  # code...
-  include 'userheader.php';
-}
-else {
-  include 'header.php';
-};
-
+include 'headerconfig.php'
 
 ?>
+
 
 <div class='containermt-5 mt-5bg-white text-dark'>
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

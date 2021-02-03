@@ -3,18 +3,7 @@
 session_start();
 require 'auth.php';
 include 'db.php';
-$role=$_SESSION['role'];
-if ($role==='dealers') {
-  # code...
-include 'dealerheader.php';
-}
-elseif ($role==='user'){
-  # code...
-  include 'userheader.php';
-}
-else {
-  include 'header.php';
-};
+include 'headerconfig.php';
 
 
 ?>
@@ -54,7 +43,7 @@ else {
                                 });
                                 </script>
                                                           
-                                 <table id="result" class="table table-striped bg-white">
+                                 <table id="result" class="table table-sm table-striped bg-white">
                                 
 
                                 </tr>
