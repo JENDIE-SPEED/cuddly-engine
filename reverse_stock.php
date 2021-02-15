@@ -33,7 +33,7 @@ mysqli_query($conn,$s) or die($conn) ;
  	echo "what the hell";
  }
 }
- header('location:index-1.php');
+ header('location:reversestock.php');
 }
 /*
 for ($i=0; $i <count($devices) ; $i++) { 

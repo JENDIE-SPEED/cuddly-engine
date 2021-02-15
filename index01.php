@@ -6,7 +6,19 @@ include 'db.php';
 include 'header.php';
 $company=$_SESSION['company'];
 ?>
-<div class='container-fluid mt-5'>
+<div class='container-fluid mt-3'>
+<style>
+.carousel-item {
+  height: 35vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+
 
 <div class="card-deck m-2 ml-5">
 <!--prog1-->

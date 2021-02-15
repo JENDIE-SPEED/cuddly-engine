@@ -15,6 +15,10 @@ elseif ($role==='user'){
 elseif($role==='super admin') {
   include 'header.php';
 }
+
+elseif($role==='director') {
+  include 'header-director.php';
+}
 else{
   echo'invalid!';
 }

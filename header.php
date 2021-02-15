@@ -31,6 +31,9 @@ $email=$_SESSION['user'];
 
 </head>
 <style>
+html{
+  scroll-behavior: smooth;
+}
     body{
       background-image: linear-gradient(to right, rgba(237, 193, 118), rgba(195, 161, 151));
       
@@ -83,7 +86,7 @@ $email=$_SESSION['user'];
               <a class="dropdown-item" href="addstock.php">Add Stock</a>
               <a class="dropdown-item" href="allocatestock.php">Allocate Stock</a>
               <a class="dropdown-item" href="dealerstock.php">Dealer Stock</a>
-              <a class="dropdown-item" href="pendingstock.php">Pending Stock</a>
+            
             
               <a class="dropdown-item" href="reversestock.php">Reverse Stock</a>
               <a class="dropdown-item" href="#">Sales summary</a>
@@ -173,7 +176,7 @@ $email=$_SESSION['user'];
         <button class="btn btn-primary" id="menu-toggle">  <span class="navbar-toggler-icon"></span></button>
        
           
-                </div>
+        </div>
 
   
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -182,7 +185,7 @@ $email=$_SESSION['user'];
     <a class="nav-item nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"  href="#nav-profile" >Switch </a>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     <a class="dropdown-item" href="index-accounts.php">Accounts</a>
-    <a class="dropdown-item" href="cancel.php">Cancel</a>
+    <a class="dropdown-item" href="admin_cancel.php">Cancel</a>
 
    
   </div>

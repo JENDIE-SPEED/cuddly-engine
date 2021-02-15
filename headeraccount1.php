@@ -87,6 +87,10 @@ $email=$_SESSION['user'];
           </li>
          
          
+          <li class="nav-item ">
+              <a class="nav-link text-light bg-dark " href="exportreport.php" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i><span class="ml-1"></span>Export Reports</a>
+             
+            </li>
          
 
               

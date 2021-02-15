@@ -6,6 +6,11 @@ include 'db.php';
 include 'headerconfig.php';
 
 ?>
+<style>
+html{
+    scroll-behavior: smooth;
+}
+</style>
 <div class='container mt-5 bg-white text-dark'>
 
 <div class="row">

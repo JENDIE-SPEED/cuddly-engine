@@ -12,20 +12,20 @@ include 'headerconfig.php'
   <div class="form-row p-1">
     <div class="form-group col-md-6">
      
-    <input type="text" class="form-control" placeholder="Name" name="cus_name" id="name">
+    <input type="text" class="form-control" placeholder="Name" name="cus_name" id="name" required>
     </div>
     <div class="form-group col-md-6">
-    <input type="text" class="form-control" placeholder="Contact" name="contact" id="contact">
+    <input type="text" class="form-control" placeholder="Contact" name="contact" id="contact" required>
       </div>
   </div>
 
   <div class="form-row">
     <div class="form-group col-md-6">
       
-    <input type="text" class="form-control" placeholder="Registration"  name="name" id="regis">
+    <input type="text" class="form-control" placeholder="Registration"  name="name" id="regis" required>
     </div>
     <div class="form-group col-md-6">
-    <input type="text" class="form-control" placeholder="Chasis" name="chasis" id="chasis">
+    <input type="text" class="form-control" placeholder="Chasis" name="chasis" id="chasis" required>
     </div>
   </div>
   
@@ -38,7 +38,7 @@ include 'headerconfig.php'
     <div class="form-group col-md-4 ">
 
     <?php
-    echo "<input id='serial' list='serial1' placeholder='Search Serial' class='form-control' name='serial' >
+    echo "<input id='serial' list='serial1' placeholder='Search Serial' class='form-control' name='serial' required >
     <datalist id='serial1'>";
     //$sql="SELECT serial FROM alocate_serial";
     $sql="SELECT * from `alocate_serial` WHERE `alocate`=1 and sold=0 and dealer='$company' order by `serial` ASC";
@@ -66,7 +66,7 @@ include 'headerconfig.php'
     
       
       <?php
-    echo "<input id='tech' list='tech1' placeholder='Search Technician' class='form-control'  name='service' >
+    echo "<input id='tech' list='tech1' placeholder='Search Technician' class='form-control'  name='service' required>
     <datalist id='tech1'>";
     $sql="SELECT `first_name` FROM `technician` ";
     foreach($conn->query($sql) as $row){

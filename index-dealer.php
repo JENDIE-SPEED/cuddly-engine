@@ -3,26 +3,7 @@
 session_start();
 require 'auth.php';
 include 'db.php';
-$role=$_SESSION['role'];
-$company=$_SESSION['company'];
-if ($role==='dealers') {
-  # code...
-include 'dealerheader.php';
-}
-elseif ($role=='admin'){
-  include 'headeradmin.php';
-}
-elseif ($role==='user'){
-  # code...
-  include 'userheader.php';
-}
-elseif($role==='super admin') {
-  include 'header.php';
-}
-else{
-  echo'invalid!';
-}
-
+include 'headerconfig.php';
 
 ?>
 
@@ -60,7 +41,7 @@ else{
                                         ?>
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="daily_reports.php"><button class="btn btn-primary">PDF</button></a></div>
+  
 </div>
 
 <!--prog2-->
@@ -94,7 +75,7 @@ else{
                                        
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="daily_renewals.php"><button class="btn btn-primary">PDF</button></a></div>
+ 
 </div>
 <!--prog3-->
 <div class="card border-success mb-3" style="max-width: 18rem;">
@@ -124,7 +105,7 @@ else{
                                     ?>
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="weekly_report.php"><button class="btn btn-primary">PDF</button></a></div>
+ 
 </div>
 
 </div>
@@ -160,7 +141,7 @@ else{
                                     ?>
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="week-renewals.php"><button class="btn btn-primary">PDF</button></a></div>
+  
 </div>
 
 
@@ -192,7 +173,7 @@ else{
                                      ?>
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="monthly_report.php"><button class="btn btn-primary">Monthly Report</button></a></div>
+  
 </div>
 
 
@@ -224,8 +205,7 @@ else{
                                      ?>
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="monthly_renewals.php"><button class="btn btn-primary">Monthly Report</button></a></div>
-</div>
+ 
 </div>
 
 </div>

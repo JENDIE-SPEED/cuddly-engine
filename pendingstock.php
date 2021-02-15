@@ -1,54 +1,26 @@
 <?php
-
 session_start();
-require 'auth.php';
-include 'db.php';
-include 'headerconfig.php';
+require 'db.php';
 
-?>
 
-<div class='container  mt-5 bg-white text-dark'>
-<div class="wrap-table100">
-                <div class="table100 ver1 m-b-110">
-                    <div class="table100-head">
-                        <table>
-   <form method="post" id="framework_form" enctype="multipart/form-data" action="pendingstock.php" >
-    <div class="form-group">
-     <tr><td><label>Select Serial</label></td>
-     <td><select id="framework" name="framework[]" multiple="multiple" multiple class="form-control" >
-                                  
-     </select></td></tr>
-     
-    
-    </div>
-    </div>
-    <tr>
-        <td>
-     <input type="submit" class="btn btn-info" name="submit"/>
-     </td>
- </tr>
-    </div>
-   </form>
-   </table>
-   <br />
-  </div>
- </body>
-</html>
+ /*$list = $_POST['framework'];
 
-<script>
-$(document).ready(function(){
- $('#framework').multiselect({
-  nonSelectedText: 'Select serial',
-  enableFiltering: true,
-  enableCaseInsensitiveFiltering: true,
-  buttonWidth:'400px'
- });
+$items=implode( ", ", $list );
+
+$devices=explode(",",$items) ;*/
+/*$connect = mysqli_connect("localhost", "root", "", "testing");*/
+if(isset($_POST["framework"]))
+{
+	
+	$list = $_POST['framework'];
+	$framework=$_POST["framework"];
+	$num=count($list);
+for($i=0; $i < $num;$i++)
+         {
+         	$serial=$framework[$i];
+ $query = "UPDATE alocate_serial set alocate=1 where `serial`='$serial'";
+ mysqli_query($conn,$query) or die($conn);
  
- 
-  });
-
-</script>
-
-
-
-</div>
+}
+ header('location:index-dealer.php');
+}

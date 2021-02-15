@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'accountnew.php';
+include 'headeraccount.php';
 require 'auth.php';
 include 'db.php';
 $company=$_SESSION['company'];

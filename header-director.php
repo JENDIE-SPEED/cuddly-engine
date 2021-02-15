@@ -3,8 +3,6 @@
 include 'db.php';
 
 $email=$_SESSION['user'];
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -54,6 +52,7 @@ $email=$_SESSION['user'];
         font-size: 3.5rem;
       }
     }
+    
   </style>
 
 <body>
@@ -61,39 +60,20 @@ $email=$_SESSION['user'];
   <div class="d-flex" id="wrapper">
 
     <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper" style="background-color:rgb(41, 37, 36);opacity:0.8;">
-    <div class="sidebar-heading"><?php  $name=$_SESSION['last'];
+    <div class="bg-light border-right" id="sidebar-wrapper" style="background-color:rgb(41, 37, 36);opacity:0.8; ">
+      <div class="sidebar-heading"><?php  $name=$_SESSION['last'];
                                 echo $name;?> </div>
-     
       
       <div class="sidebar-sticky pt-3">
-        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index-accounts.php"> <img src="assets/img/JEND.png"></a>
-        <ul class="nav flex-column">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-light bg-dark" data-toggle="dropdown" ><i class="fas fa-home " aria-hidden="true"></i><span class="ml-1"></span>Main</a>
-            <div class="dropdown-menu">
-              
-            <a class="dropdown-item" href="defaulters.php">Defaulters</a>
-              <a class="dropdown-item" href="historyaccounts.php">History</a>
-              <a class="dropdown-item" href="rprizes.php">Renewal Prizes</a>
-              <a class="dropdown-item" href="accountstrans.php">Transaction</a>
-              <a class="dropdown-item" href="invoicehis.php">Invoice History</a>
-              <a class="dropdown-item" href="installationinvoice.php">New Installation Invoice</a>
-             
-              <a class="dropdown-item" href="renewalinvoice.php">Renewal Invoice</a>
-              <a class="dropdown-item" href="valves.php">Valves Invoice</a>
+        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index-dir.php"> <img src="assets/img/JEND.png"></a>
+        <ul class="nav flex-column" style="position:fixed;">
+         
             
-            
-          </li>
-          <li class="nav-item ">
-              <a class="nav-link text-light bg-dark " href="exportreport.php" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i><span class="ml-1"></span>Export Reports</a>
+            <li class="nav-item ">
+              <a class="nav-link text-light bg-dark"  href="chart.php" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list-alt" aria-hidden="true"></i><span class="ml-1"></span>Visualisation</a>
              
             </li>
-         
-         
-         
-
-              
+          
                
         </ul>
 
@@ -118,8 +98,9 @@ $email=$_SESSION['user'];
     <div class="dropdown show">
     <a class="nav-item nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown"  href="#nav-profile" >Switch </a>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="#">Not Authorized</a>
-   
+    <a class="dropdown-item" href="index-accounts.php">Accounts</a>
+    <a class="dropdown-item" href="cancel.php">Cancel</a>
+
    
   </div>
   </div>

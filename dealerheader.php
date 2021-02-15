@@ -82,7 +82,7 @@ $email=$_SESSION['user'];
              
             
             
-              <a class="dropdown-item" href="pendingstock.php">Pending Stock</a>
+              <a class="dropdown-item" href="pending_stock.php">Pending Stock</a>
             
               <a class="dropdown-item" href="analytics.php">Sales Analytics</a>
             

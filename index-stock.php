@@ -43,7 +43,7 @@ include 'headerstock.php';
                                         ?>
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="daily_reports.php"><button class="btn btn-primary">PDF</button></a></div>
+ 
 </div>
 
 <!--prog2-->
@@ -77,7 +77,7 @@ include 'headerstock.php';
                                        
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="daily_renewals.php"><button class="btn btn-primary">PDF</button></a></div>
+ 
 </div>
 <!--prog3-->
 <div class="card border-success mb-3" style="max-width: 18rem;">
@@ -107,7 +107,7 @@ include 'headerstock.php';
                                     ?>
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="weekly_report.php"><button class="btn btn-primary">PDF</button></a></div>
+  
 </div>
 
 </div>
@@ -143,7 +143,7 @@ include 'headerstock.php';
                                     ?>
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="week-renewals.php"><button class="btn btn-primary">PDF</button></a></div>
+ 
 </div>
 
 
@@ -175,7 +175,7 @@ include 'headerstock.php';
                                      ?>
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="monthly_report.php"><button class="btn btn-primary">Monthly Report</button></a></div>
+ 
 </div>
 
 
@@ -207,7 +207,7 @@ include 'headerstock.php';
                                      ?>
     </h1></p>
   </div>
-  <div class="card-footer bg-transparent border-success"><a target="_blank" href="monthly_renewals.php"><button class="btn btn-primary">Monthly Report</button></a></div>
+ 
 </div>
 </div>
 

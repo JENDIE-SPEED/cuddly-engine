@@ -86,8 +86,8 @@ body {
 <a class="button" href="index01.php">CERTIFICATES</a>
 
 
-<a class="button is-outlined" href="accountnew.php">ACCOUNTS</a>
-<a class="button" href="cancel.php">Cancel</a>
+<a class="button is-outlined" href="index-accounts.php">ACCOUNTS</a>
+<a class="button" href="admin_cancel.php">Cancel</a>
 <!-- partial -->
   
 

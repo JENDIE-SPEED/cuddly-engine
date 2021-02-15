@@ -1,6 +1,6 @@
 <?php
 session_start();
-require 'auth.php';
+//equire 'auth.php';
 include 'db.php';
 $company=$_SESSION['company'];
 
@@ -9,12 +9,12 @@ if(isset($_POST["query"]))
 {
  $search = mysqli_real_escape_string($conn, $_POST["query"]);
  $query = "
-  SELECT * from work WHERE   vin_no LIKE '%".$search."%' OR reg_no LIKE '%".$search."%' OR cus_name LIKE '%".$search."%' OR serial LIKE '%".$search."%' and status_renew > 0 limit 10";
+   SELECT * from work WHERE   vin_no LIKE '%".$search."%' OR reg_no LIKE '%".$search."%' OR cus_name LIKE '%".$search."%' OR serial LIKE '%".$search."%' limit 10";
 }
 else
 {
  $query = "
-  SELECT * from work where status_renew > 0 ORDER BY id DESC  LIMIT 10
+  SELECT * from work WHERE dealer='$company' ORDER BY id DESC LIMIT 10
  ";
 }
 $result = mysqli_query($conn, $query);
@@ -31,9 +31,8 @@ if(mysqli_num_rows($result) > 0)
                                     <th>COMMENT</th>
                                     <th>INST DATE</th>
                                     <th>USER</th>
-                                    <th> GVN SIM </th>
-                                    <th>CANCEL</th>
-                                    <th>EDIT</th>
+                                    <th>GVN SIM </th>
+                                    
                                     <th>RENEWAL</th>
                                     </tr>
  ';
@@ -42,7 +41,6 @@ if(mysqli_num_rows($result) > 0)
   $vin=$row['vin_no'];
   $serial=$row['serial'];
   $output .= '
-
    <tr>
     <td><a href="view.php?id='.$vin.'">'.$row['vin_no'].'</a></td>
     <td> '.$row['reg_no'].'</td>    
@@ -52,12 +50,10 @@ if(mysqli_num_rows($result) > 0)
     <td>'.$row['action'].'</td>
     <td>'.$row['date'].'</td>
     <td>'.$row['user'].'</td>
-    <td>'.$row['phone'].'</td>
-    <td><a href="precancel.php?serial='.$serial.'"><button class="btn btn-primary btn-sm"> CANCEL</button></a></td>
-    <td><a href="edit_reg.php?serial='.$serial.'"><button class="btn btn-primary btn-sm"> EDIT</button></a></td>
-    <td><a href="batch.php?q='.$serial.'"><button class="btn btn-primary btn-sm"> RENEW</button ></a></td>
+   <td>'.$row['phone'].'</td>
+   
+   <td><a href="batch.php?q='.$serial.'"><button class="btn btn-primary">RENEW</button></a></td>
    </tr>
-
   ';
  }
  echo $output;

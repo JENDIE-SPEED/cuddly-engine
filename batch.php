@@ -3,22 +3,20 @@
 session_start();
 require 'auth.php';
 include 'db.php';
+$company=$_SESSION['company'];
+$user=  $_SESSION['user'];
+$selected = array();;
 include 'headerconfig.php';
 
 
 
 
-$company=$_SESSION['company'];
-$user=  $_SESSION['user'];
-    $id=$_GET['serial'];;
-    $_SESSION['serial']=$id;
-    $sql="SELECT * FROM `work` WHERE `serial`='$id'";
-    $query=mysqli_query($conn,$sql);
-    $row=mysqli_fetch_array($query);
+
+  
 ?>
 <div class='container  mt-5 bg-white text-dark'>
 
-<form>
+<form >
 			<label>Mpesa Code </label>
 			<input type="text" name="mpesa" id="mpesa" class="form-control form-control" placeholder="Enter Mpesa Code" required>
 			<br>
@@ -58,7 +56,7 @@ $user=  $_SESSION['user'];
                                     
 									<tr id="datarow">
 										<td><?php echo $row['id']; ?></td>
-										<td><?php echo $row['serial']; ?></td>
+										<td ><?php echo $row['serial']; ?></td>
 										<td><?php echo $row['reg_no']; ?></td>
 										<td><?php echo $row['vin_no']; ?></td>
 										<td><?php echo $row['dealer']; ?></td>
