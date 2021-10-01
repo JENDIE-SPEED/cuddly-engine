@@ -38,7 +38,52 @@ if(mysqli_num_rows($result) > 0)
  ';
  while($row = mysqli_fetch_array($result))
  {
-  $vin=$row['vin_no'];
+  $problem=$row['problem'];
+  if ($problem == 'RENEWAL') {
+    // code...
+     $vin=$row['vin_no'];
+  $serial=$row['serial'];
+  $output .= '
+   <tr >
+    <td><a href="view.php?id='.$vin.'">'.$row['vin_no'].'</a></td>
+    <td> '.$row['reg_no'].'</td>    
+    <td>'.$row['problem'].'</td>
+    <td>'.$row['tech'].'</td>
+    <td>'.$row['dealer'].'</td>
+    <td>'.$row['action'].'</td>
+    <td>'.$row['date'].'</td>
+    <td>'.$row['user'].'</td>
+   <td>'.$row['phone'].'</td>
+   <td><a href="edit_reg.php?serial='.$serial.'"><button  type="button" class="btn btn-primary btn-sm">EDIT</button></a></td>
+   <td><a href="batch_renewal.php?q='.$serial.'"><button   type="button" class="btn btn-primary btn-sm">RENEW</button></a></td>
+   </tr>
+  ';
+  }
+  elseif($problem == 'RENEWAL1')
+  {
+    // code...
+     $vin=$row['vin_no'];
+  $serial=$row['serial'];
+  $output .= '
+   <tr >
+    <td><a href="view.php?id='.$vin.'">'.$row['vin_no'].'</a></td>
+    <td> '.$row['reg_no'].'</td>    
+    <td>'.$row['problem'].'</td>
+    <td>'.$row['tech'].'</td>
+    <td>'.$row['dealer'].'</td>
+    <td>'.$row['action'].'</td>
+    <td>'.$row['date1'].'</td>
+    <td>'.$row['user'].'</td>
+   <td>'.$row['phone'].'</td>
+   <td><a href="edit_reg.php?serial='.$serial.'"><button  type="button" class="btn btn-primary btn-sm">EDIT</button></a></td>
+   <td><a href="batch_renewal.php?q='.$serial.'"><button   type="button" class="btn btn-primary btn-sm">RENEW</button></a></td>
+   <td><a href="http://jendientsa.co.ke/search/view.php?serial='.$serial.'" target="_blank"><button   type="button" class="btn btn-primary btn-sm" >NTSA</button></a></td>
+   </tr>
+  ';
+  }
+   else {
+    // code...
+     $vin=$row['vin_no'];
   $serial=$row['serial'];
   $output .= '
    <tr >
@@ -53,8 +98,13 @@ if(mysqli_num_rows($result) > 0)
    <td>'.$row['phone'].'</td>
    <td><a href="edit_reg.php?serial='.$serial.'"><button  type="button" class="btn btn-primary btn-sm">EDIT</button></a></td>
    <td><a href="batch.php?q='.$serial.'"><button   type="button" class="btn btn-primary btn-sm">RENEW</button></a></td>
+   <td><a href="http://jendientsa.co.ke/search/view.php?serial='.$serial.'" target="_blank"><button   type="button" class="btn btn-primary btn-sm" >NTSA</button></a></td>
+
    </tr>
   ';
+  }
+  
+ 
  }
  echo $output;
 }
